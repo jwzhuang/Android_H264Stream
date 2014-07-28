@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">H264Stream</string>
+    <string name="clients">客戶端數</string>
+    <string name="ipadr">IP 位址</string>
+    <string name="pressagain">再按一次離開</string>
+</resources>

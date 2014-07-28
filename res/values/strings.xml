@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">H264Stream</string>
+    <string name="clients">Clients</string>
+    <string name="ipadr">IP Address</string>
+    <string name="pressagain">Press once again to exit</string>
+
+</resources>
