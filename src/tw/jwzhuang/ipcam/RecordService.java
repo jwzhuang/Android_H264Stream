@@ -129,7 +129,7 @@ MediaRecorder.OnInfoListener{
 		wm = (WindowManager) getApplicationContext().getSystemService(Context.WINDOW_SERVICE);
 		// 设置LayoutParams(全局变量）相关参数
 		wmParams = ((MyApplication) getApplication()).getMywmParams();
-		wmParams.type = 5000;
+		wmParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
 		wmParams.flags |= WindowManager.LayoutParams.FORMAT_CHANGED;
 		wmParams.flags |= WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED;
 		wmParams.flags |= WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN;
