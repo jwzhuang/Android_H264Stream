@@ -44,7 +44,7 @@ public class InfoService extends Service {
 	
 		// 设置LayoutParams(全局变量）相关参数
 		wmParams = ((MyApplication) getApplication()).getMywmParams();
-		wmParams.type = 4999;
+		wmParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
 		wmParams.flags |= WindowManager.LayoutParams.FORMAT_CHANGED;
 		wmParams.flags |= WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED;
 		wmParams.gravity = Gravity.LEFT | Gravity.TOP; // 调整悬浮窗口至左上角
